@@ -1,23 +1,25 @@
 <!-- This is the main page of the Gradebook App -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gradebook App</title>
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <!-- Header Section -->
     <header>
-      <h1>Gradebook App</h1>
+      <div class="container">
+        <h1>Gradebook App</h1>
+      </div>
     </header>
 
     <!-- Subjects Section -->
     <section id="subjects">
       <h2>Subjects</h2>
       <p id="subjects-text">No subjects yet.</p>
-      <button>+ Add a Subject</button>
+      <a href="/subject.html"><button>+ Add a Subject</button></a>
     </section>
 
     <!-- Steps Content Section -->
@@ -40,16 +42,20 @@
       </ol>
     </main>
 
-    <footer>
-      <p>&copy; 2023 Gradebook App. All rights reserved.</p>
-      <p>
-        Follow on:
-        <a href="https://www.linkedin.com/in/imoleayo-emmanuella-olunde/"
-          >LinkedIn</a
-        >
-        |
-        <a href="https://github.com/emsy-T">GitHub</a>
-      </p>
-    </footer>
+    <div class="container">
+      <footer>
+        <p>&copy; 2023 Gradebook App. All rights reserved.</p>
+        <p>
+          Follow on:
+          <a href="https://www.linkedin.com/in/imoleayo-emmanuella-olunde/"
+            >LinkedIn</a
+          >
+          |
+          <a href="https://github.com/emsy-T">GitHub</a>
+        </p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
